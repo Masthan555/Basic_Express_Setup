@@ -2,7 +2,7 @@ const testModel = require("../models/testModel");
 
 module.exports = {
     testGet: (req, res)=>{
-        res.send("GET request working fine");
+        res.status(200).send("GET request working fine");
     },
 
     testPost: (req, res)=>{
